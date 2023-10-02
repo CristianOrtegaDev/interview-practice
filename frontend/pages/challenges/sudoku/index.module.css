@@ -1,0 +1,27 @@
+.boardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rowContainer {
+    display: flex;
+}
+
+.cellGroupStyle {
+    border: 1px solid black;
+}
+
+.cellElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+.withBorder {
+    border-top: 1px solid black;
+}

@@ -1,0 +1,52 @@
+.table {
+    background-color: #242427;
+    color: white;
+    padding: 0 1rem .5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.headCellContainer {
+    display: flex;
+}
+
+.headCell {
+    width: 120px;
+    text-align: start;
+    padding: 1rem;
+}
+
+.rowContainer {
+    display: flex;
+    background-color: #2f2e31;
+    margin-bottom: .4rem;
+}
+
+.cell {
+    width: 120px;
+    text-align: start;
+    padding: 1rem;
+}
+
+.BUY {
+    color: #d9f5a7;
+}
+
+.SELL {
+    color: #ff7c60;
+}
+
+.statusElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    background: #d5e617;
+    color: #2f2e31;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.FULFILLED {
+    background-color: #8dd014;
+}

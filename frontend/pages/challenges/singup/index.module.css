@@ -1,0 +1,88 @@
+.pageWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+.formContainer {
+    width: 300px;
+    background-color: #2f2e31;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #b8b8b8;
+    border-radius: 0.4rem;
+}
+
+.title {
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.errorMessage {
+    margin: 0px;
+    color: red;
+    font-size: .8rem;
+    padding-top: 0.4rem;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1rem;
+    background: #0277C5;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+}
+
+.submitButton:disabled {
+    cursor: inherit;
+    background-color: #5b92b7;
+}
+
+.loadingImg {
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

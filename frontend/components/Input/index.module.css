@@ -1,0 +1,27 @@
+.inputWrapper {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.inputTitle {
+    font-size: .9rem;
+    padding-bottom: 0.5rem;
+}
+
+.inputElement {
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+.inputElement:focus {
+    outline: #d5e617;
+}
+
+.errorLabel {
+    color: red;
+    font-size: .8rem;
+    padding-top: 0.4rem;
+}

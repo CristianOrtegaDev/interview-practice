@@ -1,0 +1,37 @@
+.container {
+    margin-left: 3rem;
+}
+
+.bestOrderWrapper {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #242427;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.symbolWrapper {
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.typeWrapper {
+    color: #ff7c60;
+}
+
+.statusWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    background: #d5e617;
+    color: #2f2e31;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: 1rem;
+}

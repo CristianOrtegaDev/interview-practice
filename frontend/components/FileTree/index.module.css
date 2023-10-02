@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dataContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border: 1px solid #eaeaea;
+}
+
+.childsContainer {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.childWrapper {
+    width: 100%;
+}
+
+.folder {
+    cursor: pointer;
+}
+
+.icon {
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.folderIcon {
+    background: #a7eaff;
+}
+
+.filesIcon {
+    margin-left: 6%;
+    background: #ffc674;
+}
